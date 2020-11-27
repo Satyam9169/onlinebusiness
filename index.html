@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Business</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+		color: white;
+		font-family: 'Baloo 2', cursive;
+	}
+	.container{
+		width: 100vw;
+		height: 8vh;
+		background-color: #47c347;
+		margin-top: -12px;
+	}
+	body{
+		width: 100vw;
+		height: 100vh;
+		background-image: url(pic/bs.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		opacity: 1.5;
+	}
+	.left{
+		/*border: 2px solid #1f09e3;
+		border-radius: 5px;*/
+		float: left;
+		margin: 0px 27px;
+		padding: 7px 25px;
+		cursor: pointer;
+	}
+	.left h4{
+		font-size: 20px;
+		border: 4px solid cyan;
+		border-radius: 12px;
+		border-left: blue;
+		border-right: azure;
+		color: #dbff13;
+	}
+	.mid{
+		/*border: 2px solid #11f5de;
+		border-radius: 5px;*/
+		text-align: center;
+		width: 23%;
+		margin: 12px auto;
+		padding: 12px 20px 32px 30px;
+
+	}
+	.navbar ul{
+		list-style: none;
+		position: absolute;
+	}
+	.navbar li{
+		float: left;
+	}
+	.navbar li a{
+		text-decoration: none;
+		display: inline-block;
+		font-size: 18px;
+		color: #dbff13;
+		padding: 0px 10px 0px 10px;
+		background-color: gray;
+		border: 2px solid white;
+		border-radius: 15px;
+		/*margin-bottom: -10px;*/
+	}
+	.navbar li a:hover{
+		background-color: #10e6db;
+		color: white;
+	}
+
+	.right{
+		/*border: 2px solid #ed2409;;
+		border-radius: 5px;*/
+		float: right;
+		margin: -56px 56px;
+		padding: 10px 25px;
+		/*cursor: pointer;*/
+		/*font-size: 18px;*/
+		font-family: 'Baloo 2', cursive;
+	}
+	.right .btn1{
+	background-color: #f71010;
+    color: #f0ff09;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+    border: 2px solid #fff2f4;
+    border-radius: 15px;
+    margin: 0px 20px 0px 5px;
+    padding: 0pc 7px 0px 6px;
+	}
+	.right .btn2{
+	background-color: #ff00f7;
+    color: #e9fdff
+    /*font-size: 18px;*/
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+    border: 2px solid #ffd5ea;
+    border-radius: 15px;
+    margin: 0px 20px 0px 5px;
+    padding: 3px 8px;
+	}
+	.form{
+		border: 2px solid green;
+		border-radius: 12px;
+		margin: 110px 924px 10px 24px;
+    	padding: 33px 0px 40px 39px;
+	}
+	.form h4{
+		text-align: center;
+		display: inline-block;
+		padding: 0px 10px 0px 3px;
+	}
+	.form-group{
+		padding: 2px 0px 5px 58px;
+	}
+	.form-group input{
+		border: 2px solid black;
+    	border-radius: 25px;
+    	text-align: center;
+    	font-family: 'Baloo 2', cursive;
+	}
+	.btn{
+		background-color: green;
+		color: yellow;
+		font-size: 15px;
+		text-align: center;
+		margin: 5px 0px 0px 60px;
+        padding: 5px 52px 0px 50px;
+        font-family: 'Baloo 2', cursive;
+        border: 2px solid cyan;
+		border-radius: 5px;
+	}
+	.btn:hover{
+		background-color: yellow;
+		color: red;
+		border: 2px solid blue;
+		border-radius: 5px;
+	}
+</style>
+<body>
+		<header class="container">
+		<div class="left">
+		<h4>Green Point</h4>
+		</div>
+		<div class="mid">
+			<div class="navbar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Product</a></li>
+					<li><a href="#">About us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+				<button class="btn1">Signin</button>
+				<button class="btn2"><h3>Signup</h3></button>
+		</div>
+		</header>
+		<div class="form">
+			<form>
+				<h1>Join here for our product</h1>
+			<div class="form-group">
+				<input type="text" name="name" placeholder="Enter Your full name" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="name" placeholder="Enter Your Email" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="name" placeholder="Enter Your contact no" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="name" placeholder="Enter Your address" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="name" placeholder="Enter Your gender" required>
+			</div>
+			<button class="btn">Submit</button>
+			</form>
+		</div>
+</body>
+</html>
